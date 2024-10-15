@@ -97,7 +97,6 @@ const Spotify = () => {
         >
           {item.name} by {item.artists.map((artist: { name: any; }) => artist.name).join(', ')}
         </a>
-        <p className="albumText">Album: {item.album.name}</p>
       </div>
       <div className="playing">
         <div className="greenline line-1"></div>
